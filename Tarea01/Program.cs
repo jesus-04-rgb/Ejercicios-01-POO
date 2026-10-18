@@ -34,6 +34,18 @@ using Tarea01.EjerciciosCsharp1.ControlStructures;
 // calculadoraSwitch.Calcular();
 // VocalConsonante vocalConsonante = new VocalConsonante();
 // vocalConsonante.EvaluarLetra();
-
-
+// SistemaCalificacionesUNAH sistemaCalificacionesUnah = new SistemaCalificacionesUNAH();
+// sistemaCalificacionesUnah.EvaluarCalificación(0);
+// CalculadoraDescuento calculadoraDescuento = new CalculadoraDescuento();
+// calculadoraDescuento.CalcularDescuento();
+// TarifaEstacionamiento tarifaEstacionamiento = new TarifaEstacionamiento();
+// tarifaEstacionamiento.CalcularTarifa();
+//  ClasificaciónDeTriángulos clasificaciónDeTriángulos = new ClasificaciónDeTriángulos();
+//  clasificaciónDeTriángulos.ClasificarTriangulo();
+//   AñoBisiesto añoBisiesto = new AñoBisiesto();
+//   añoBisiesto.EvaluarAñoBisiesto();
+// ValidadorFecha validadorFecha = new ValidadorFecha();
+// validadorFecha.ValidarFecha();
+CajeroAutomatico cajeroAutomatico = new CajeroAutomatico();
+cajeroAutomatico.RetirarEfectivo();
 
