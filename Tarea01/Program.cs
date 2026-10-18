@@ -32,7 +32,8 @@ using Tarea01.EjerciciosCsharp1.ControlStructures;
 // diaDeLaSemana.DiaSemana();
 // CalculadoraSwitch calculadoraSwitch = new CalculadoraSwitch();
 // calculadoraSwitch.Calcular();
-VocalConsonante vocalConsonante = new VocalConsonante();
-vocalConsonante.EvaluarLetra();
+// VocalConsonante vocalConsonante = new VocalConsonante();
+// vocalConsonante.EvaluarLetra();
+
 
 
