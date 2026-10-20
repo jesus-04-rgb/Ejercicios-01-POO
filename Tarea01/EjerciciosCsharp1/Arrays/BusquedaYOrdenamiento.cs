@@ -12,7 +12,7 @@ namespace Tarea01.EjerciciosCsharp1.Arrays
             MostrarArreglo(numeros);
 
             // aquí se realiza la búsqueda lineal
-            Console.Write("\Qué número desea buscar? ");
+            Console.Write("Qué número desea buscar? ");
             int buscado;
             while (!int.TryParse(Console.ReadLine(), out buscado))
             {
@@ -84,9 +84,8 @@ namespace Tarea01.EjerciciosCsharp1.Arrays
                     segundo = actual;
                     haySegundo = true;
                 }
-             
             }
-
+              // Mostramos el resultado según si hay un segundo mayor o no
             if (haySegundo)
                 Console.WriteLine($"\nEl mayor es {mayor} y el segundo mayor es {segundo}.");
             else

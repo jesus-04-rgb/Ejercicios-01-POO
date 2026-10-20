@@ -7,7 +7,7 @@ namespace Tarea01.EjerciciosCsharp1.Arrays
             string[] nombres = new string[5];
 
             //  Pedir los 5 nombres al usuario
-            Console.WriteLine("Vamos a registrar 5 nombres.");
+            Console.WriteLine("Mira vamos a registrar 5 nombres.");
             for (int i = 0; i < nombres.Length; i++)
             {
                 Console.Write($"Escriba el nombre #{i + 1}: ");
@@ -42,7 +42,7 @@ namespace Tarea01.EjerciciosCsharp1.Arrays
             Console.WriteLine($"\nEl nombre más largo es: {nombreMasLargo} ({nombreMasLargo.Length} letras)");
 
             //  Buscar un nombre que escriba el usuario
-            Console.Write("\nQue nombre busca usted? ");
+            Console.Write("Que nombre busca usted? ");
             string buscado = Console.ReadLine()?.Trim() ?? string.Empty;
 
             bool encontrado = false;
