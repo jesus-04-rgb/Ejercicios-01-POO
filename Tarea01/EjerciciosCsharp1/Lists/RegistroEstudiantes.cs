@@ -2,8 +2,6 @@ namespace Tarea01.EjerciciosCsharp1.Lists
 {
     public class RegistroEstudiantes
     {
-        private static int posiciónMejor;
-
         public static void Ejecutar()
         {
          //aquí hacemos el registro de estudiantes usando listas paralelas nombres y promedios
